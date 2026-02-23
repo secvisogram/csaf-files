@@ -1,0 +1,25 @@
+name: Publish CSAF Advisories
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: CSAF Action
+        uses: csaf-tools/csaf-action@v1
+        with:
+          command: check,sign,publish
+          advisories_dir: advisories
+          output_dir: csaf
+          pgp_key: ${{ secrets.PGP_SIGNING_KEY }}
+          pgp_passphrase: ${{ secrets.PGP_PASSPHRASE }}
+          gh_pages_branch: gh-pages
+          base_url: https://github.com/bendo-eXX/csaf-files-settings-test

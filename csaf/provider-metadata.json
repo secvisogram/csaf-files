@@ -1,0 +1,13 @@
+{
+  "canonical_url": "https://github.com/bendo-eXX/csaf-files-settings-test/csaf/provider-metadata.json",
+  "distributions": [
+    {
+      "directory_url": "https://github.com/bendo-eXX/csaf-files-settings-test/csaf/"
+    }
+  ],
+  "public_openpgp_keys": [
+    {
+      "url": "https://github.com/bendo-eXX/csaf-files-settings-test/csaf/public.asc"
+    }
+  ]
+}
