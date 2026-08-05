@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Check, Sign and Publish CSAF advisories
-        uses: csaf-tools/csaf-action@v0.2.0
+        uses: csaf-tools/csaf-action@v0.4.0
         with:
           publisher_name: "Secvisogram Team"
           publisher_namespace: "https://github.com/secvisogram/csaf-files"
