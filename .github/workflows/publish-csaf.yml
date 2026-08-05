@@ -29,5 +29,6 @@ jobs:
           source_csaf_documents: advisories/
           openpgp_secret_key: ${{ secrets.PGP_SIGNING_KEY }}
           openpgp_public_key: ${{ secrets.PGP_PUBLIC_KEY }}
+          openpgp_use_signatures: false
           target_branch: gh-pages
           generate_index_files: true
