@@ -1,0 +1,23 @@
+{
+  "service": {
+    "workspace": [
+      {
+        "title": "CSAF feeds",
+        "collection": [
+          {
+            "title": "CSAF feed (TLP:WHITE)",
+            "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/csaf-feed-tlp-white.json",
+            "categories": {
+              "category": [
+                {
+                  "scheme": "urn:ietf:params:rolie:category:information-type",
+                  "term": "csaf"
+                }
+              ]
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

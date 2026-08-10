@@ -1,0 +1,37 @@
+{
+  "canonical_url": "https://secvisogram.github.io/csaf-files/.well-known/csaf/provider-metadata.json",
+  "distributions": [
+    {
+      "rolie": {
+        "feeds": [
+          {
+            "summary": "TLP:WHITE advisories",
+            "tlp_label": "WHITE",
+            "url": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/csaf-feed-tlp-white.json"
+          }
+        ]
+      }
+    },
+    {
+      "directory_url": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white"
+    }
+  ],
+  "last_updated": "2026-08-10T17:18:47Z",
+  "list_on_CSAF_aggregators": true,
+  "metadata_version": "2.0",
+  "mirror_on_CSAF_aggregators": true,
+  "public_openpgp_keys": [
+    {
+      "fingerprint": "7A26C65ECC44F2DFC7C327BE9D962D2EE9205513",
+      "url": "https://secvisogram.github.io/csaf-files/.well-known/csaf/openpgp/7A26C65ECC44F2DFC7C327BE9D962D2EE9205513.asc"
+    }
+  ],
+  "publisher": {
+    "category": "vendor",
+    "name": "Secvisogram Team",
+    "namespace": "https://github.com/secvisogram/csaf-files",
+    "contact_details": "The Secvisogram Team can be reached via GitHub Issues at https://github.com/secvisogram/secvisogram/issues.",
+    "issuing_authority": " As a content provider, BSI is responsible under general law for its own content distributed for use. However, it remains your responsibility to carefully check usage and/or implementation of information provided with the content."
+  },
+  "role": "csaf_trusted_provider"
+}

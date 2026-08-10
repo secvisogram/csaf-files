@@ -1,0 +1,57 @@
+{
+  "feed": {
+    "id": "csaf-feed-tlp-white",
+    "title": "CSAF feed (TLP:WHITE)",
+    "link": [
+      {
+        "rel": "self",
+        "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/csaf-feed-tlp-white.json"
+      },
+      {
+        "rel": "service",
+        "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/service.json"
+      }
+    ],
+    "category": [
+      {
+        "scheme": "urn:ietf:params:rolie:category:information-type",
+        "term": "csaf"
+      }
+    ],
+    "updated": "2026-08-10T17:18:57Z",
+    "entry": [
+      {
+        "content": {
+          "type": "application/json",
+          "src": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/csaf-validator-lib-2026-0001.json"
+        },
+        "id": "csaf-validator-lib-2026-0001",
+        "link": [
+          {
+            "rel": "self",
+            "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/csaf-validator-lib-2026-0001.json"
+          },
+          {
+            "rel": "hash",
+            "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/csaf-validator-lib-2026-0001.json.sha256"
+          },
+          {
+            "rel": "hash",
+            "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/csaf-validator-lib-2026-0001.json.sha512"
+          },
+          {
+            "rel": "signature",
+            "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/csaf-validator-lib-2026-0001.json.asc"
+          }
+        ],
+        "published": "2026-03-02T09:00:00Z",
+        "title": "csaf-validator-lib is not affected by the CVE-2020-7660 in mocha, as it is only used in development",
+        "updated": "2026-03-02T09:00:00Z",
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        }
+      }
+    ]
+  }
+}
