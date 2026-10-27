@@ -12,7 +12,7 @@
     "notes": [
       {
         "category": "legal_disclaimer",
-        "text": "As a content provider, BSI is responsible under general law for its own content distributed for use. However, it remains your responsibility to carefully check usage and/or implementation of information provided with the content.",
+        "text": "As a content provider, the Secvisogram Team is responsible under general law for its own content distributed for use. However, it remains your responsibility to carefully check usage and/or implementation of information provided with the content.",
         "title": "Legal disclaimer"
       },
       {
@@ -27,7 +27,7 @@
       }
     ],
     "publisher": {
-      "category": "coordinator",
+      "category": "vendor",
       "name": "csaf-validator-lib",
       "namespace": "https://github.com/secvisogram/csaf-validator-lib"
     },
@@ -35,7 +35,7 @@
       {
         "category": "self",
         "summary": "csaf-validator-lib repository",
-        "url": "https://github.com/secvisogram/csaf-validator-lib/advisories/csaf-validator-lib-2026-0002.json"
+        "url": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/csaf-validator-lib-2026-0002.json"
       }
     ],
     "title": "csaf-validator-lib is not affected by CVE-2026-111497 in the Node.js Brotli decoder",
@@ -1209,16 +1209,112 @@
     {
       "cve": "CVE-2026-111497",
       "discovery_date": "2026-10-22T00:00:00.000Z",
+      "flags": [
+        {
+          "label": "vulnerable_code_not_in_execute_path",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007",
+            "CSAFPID-00008",
+            "CSAFPID-00009",
+            "CSAFPID-00010",
+            "CSAFPID-00011",
+            "CSAFPID-00012",
+            "CSAFPID-00013",
+            "CSAFPID-00014",
+            "CSAFPID-00015",
+            "CSAFPID-00016",
+            "CSAFPID-00017",
+            "CSAFPID-00018",
+            "CSAFPID-00019",
+            "CSAFPID-00020",
+            "CSAFPID-00021",
+            "CSAFPID-00022",
+            "CSAFPID-00023",
+            "CSAFPID-00024",
+            "CSAFPID-00025",
+            "CSAFPID-00026",
+            "CSAFPID-00027",
+            "CSAFPID-00028",
+            "CSAFPID-00029",
+            "CSAFPID-00030",
+            "CSAFPID-00031",
+            "CSAFPID-00032",
+            "CSAFPID-00033",
+            "CSAFPID-00034",
+            "CSAFPID-00035",
+            "CSAFPID-00036",
+            "CSAFPID-00037",
+            "CSAFPID-00038",
+            "CSAFPID-00039",
+            "CSAFPID-00040",
+            "CSAFPID-00041",
+            "CSAFPID-00042",
+            "CSAFPID-00043",
+            "CSAFPID-00044",
+            "CSAFPID-00045",
+            "CSAFPID-00046",
+            "CSAFPID-00047",
+            "CSAFPID-00048",
+            "CSAFPID-00049",
+            "CSAFPID-00050",
+            "CSAFPID-00051",
+            "CSAFPID-00052",
+            "CSAFPID-00053",
+            "CSAFPID-00054",
+            "CSAFPID-00055",
+            "CSAFPID-00056",
+            "CSAFPID-00057",
+            "CSAFPID-00058",
+            "CSAFPID-00059",
+            "CSAFPID-00060",
+            "CSAFPID-00061",
+            "CSAFPID-00062",
+            "CSAFPID-00063",
+            "CSAFPID-00064",
+            "CSAFPID-00065",
+            "CSAFPID-00066",
+            "CSAFPID-00067",
+            "CSAFPID-00068",
+            "CSAFPID-00069",
+            "CSAFPID-00070",
+            "CSAFPID-00071",
+            "CSAFPID-00072",
+            "CSAFPID-00073",
+            "CSAFPID-00074",
+            "CSAFPID-00075",
+            "CSAFPID-00076",
+            "CSAFPID-00077",
+            "CSAFPID-00078",
+            "CSAFPID-00079",
+            "CSAFPID-00080",
+            "CSAFPID-00081",
+            "CSAFPID-00082",
+            "CSAFPID-00083",
+            "CSAFPID-00084",
+            "CSAFPID-00085",
+            "CSAFPID-00086",
+            "CSAFPID-00087",
+            "CSAFPID-00088",
+            "CSAFPID-00089",
+            "CSAFPID-00090",
+            "CSAFPID-00091",
+            "CSAFPID-00092",
+            "CSAFPID-00093",
+            "CSAFPID-00094"
+          ]
+        }
+      ],
       "notes": [
         {
           "category": "description",
           "text": "Brotli decoder in Node.js (24.x before 24.22.1, 22.x before 22.23.4) mishandles crafted compressed streams and may lead to remote code execution.",
           "title": "CVE Description"
-        },
-        {
-          "category": "other",
-          "text": "CVSS v4.0 base score 9.2 (CRITICAL): CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N",
-          "title": "CVSS v4.0"
         }
       ],
       "product_status": {
@@ -1319,12 +1415,27 @@
           "CSAFPID-00094"
         ]
       },
-      "threats": [
+      "scores": [
         {
-          "category": "impact",
-          "date": "2026-10-26T15:48:00.000Z",
-          "details": "csaf-validator-lib is a JavaScript library without its own runtime. It does not bundle or deliver Node.js and does not use the Brotli decoder. The affected Node.js runtime is provided by the environment of the consuming application.",
-          "product_ids": [
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "environmentalScore": 9.8,
+            "environmentalSeverity": "CRITICAL",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "temporalScore": 9.8,
+            "temporalSeverity": "CRITICAL",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
             "CSAFPID-00001",
             "CSAFPID-00002",
             "CSAFPID-00003",
@@ -1422,9 +1533,11 @@
           ]
         }
       ],
-      "flags": [
+      "threats": [
         {
-          "label": "vulnerable_code_not_in_execute_path",
+          "category": "impact",
+          "date": "2026-10-26T15:48:00.000Z",
+          "details": "csaf-validator-lib is a JavaScript library without its own runtime. It does not bundle or deliver Node.js and does not use the Brotli decoder. The affected Node.js runtime is provided by the environment of the consuming application.",
           "product_ids": [
             "CSAFPID-00001",
             "CSAFPID-00002",
