@@ -23,7 +23,7 @@ jobs:
         with:
           publisher_name: "Secvisogram Team"
           publisher_namespace: "https://github.com/secvisogram/csaf-files"
-          publisher_issuing_authority: " As a content provider, BSI is responsible under general law for its own content distributed for use. However, it remains your responsibility to carefully check usage and/or implementation of information provided with the content."
+          publisher_issuing_authority: "As a content provider, the Secvisogram Team is responsible under general law for its own content distributed for use. However, it remains your responsibility to carefully check usage and/or implementation of information provided with the content."
           publisher_contact_details: "The Secvisogram Team can be reached via GitHub Issues at https://github.com/secvisogram/secvisogram/issues."
           publisher_category: "vendor"
           source_csaf_documents: advisories/
@@ -33,3 +33,29 @@ jobs:
           openpgp_use_signatures: false
           target_branch: gh-pages
           generate_index_files: true
+
+  trigger-publish:
+    needs: publish-csaf
+    if: success()
+    runs-on: ubuntu-24.04
+    name: Dispatch publish event to secvisogram.github.io
+    permissions:
+      contents: read
+
+    steps:
+      - name: Generate GitHub App token
+        id: app-token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          owner: secvisogram
+          repositories: secvisogram.github.io
+
+      - name: Dispatch csaf-publish event
+        env:
+          GH_TOKEN: ${{ steps.app-token.outputs.token }}
+        run: |
+          gh api repos/secvisogram/secvisogram.github.io/dispatches \
+            -f event_type=csaf-publish \
+            -f 'client_payload[source_sha]=${{ github.sha }}'
