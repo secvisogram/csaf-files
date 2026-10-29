@@ -38,7 +38,7 @@
       {
         "category": "self",
         "summary": "csaf-validator-service repository",
-        "url": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/csaf-validator-service-2026-0001.json"
+        "url": "https://secvisogram.github.io/.well-known/csaf/white/2026/csaf-validator-service-2026-0001.json"
       }
     ],
     "title": "csaf-validator-service is affected by CVE-2026-111497 in the Node.js Brotli decoder",
