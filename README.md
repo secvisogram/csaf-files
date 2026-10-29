@@ -6,9 +6,9 @@ Every document in `advisories/` is validated, signed and published to
 `https://secvisogram.github.io/.well-known/csaf/` by a GitHub Actions workflow. Adding a
 document to `main` is all it takes; there is no manual upload step and no hosting cost.
 
-Publishing happens in two repositories: this repo detects the change and triggers a
-workflow in [`secvisogram/secvisogram.github.io`](https://github.com/secvisogram/secvisogram.github.io),
-which performs the actual validation, signing and publishing. See
+Publishing happens in two repositories: this repo validates, signs and publishes the
+documents itself, then notifies [`secvisogram/secvisogram.github.io`](https://github.com/secvisogram/secvisogram.github.io),
+which merges the published output into its own site. See
 [Architecture](#architecture) below.
 
 ## Adding a VEX document
@@ -38,20 +38,36 @@ readable — they do not affect the output.
 
 Publishing is split across two repositories:
 
-1. This repository (`csaf-files`) only holds the source documents. A push to `main`
-   touching `advisories/**` triggers the workflow
-   [`trigger-publish.yml`](.github/workflows/trigger-publish.yml). It obtains a short-lived
+1. This repository (`csaf-files`) holds the source documents. A push to `main` touching
+   `advisories/**` triggers the workflow
+   [`publish-csaf.yml`](.github/workflows/publish-csaf.yml). Its first job,
+   `publish-csaf`, validates and signs the documents with `csaf-tools/csaf-action` and
+   commits the result to this repository's `gh-pages` branch under `.well-known/csaf/`.
+   Once that job succeeds, the second job, `trigger-publish`, obtains a short-lived
    GitHub App token and sends a `repository_dispatch` event (`csaf-publish`) to
    `secvisogram/secvisogram.github.io`.
 2. [`secvisogram/secvisogram.github.io`](https://github.com/secvisogram/secvisogram.github.io)
-   receives the dispatch, checks out this repository's `advisories/` folder, validates and
-   signs the documents with `csaf-tools/csaf-action`, and commits the result to its own
-   `gh-pages` branch under `.well-known/csaf/`.
+   receives the dispatch and runs its `github-pages.yml` workflow. It checks out the
+   already published `gh-pages` branch of this repository (not the raw `advisories/`
+   sources), merges `.well-known/csaf/` into its Secvisogram app build and deploys the
+   result to its own `gh-pages` branch.
 
-This repository no longer publishes documents itself; it has no `gh-pages` branch of its
-own and no local GitHub Pages site. The published documents are served from
-`https://secvisogram.github.io/`, the Pages site of the `secvisogram.github.io` repository
-(which also hosts the Secvisogram editor).
+The `gh-pages` branch of this repository is only a data branch; the documents are served
+from `https://secvisogram.github.io/`, the Pages site of the `secvisogram.github.io`
+repository (which also hosts the Secvisogram editor).
+
+### Known limitation: canonical URL
+
+<!-- TODO(csaf-action#canonical_url_prefix): remove this section once csaf-action supports canonical_url_prefix. -->
+
+`csaf-tools/csaf-action` derives the self-referencing URLs (`provider-metadata.json`,
+`service.json`, ROLIE feed) from the GitHub Pages URL of this repository, i.e.
+`https://secvisogram.github.io/csaf-files/`. The documents are served from
+`https://secvisogram.github.io/`, so `secvisogram.github.io` rewrites these URLs while
+merging (`scripts/merge-provider-output.sh`). Until the action supports a
+`canonical_url_prefix` input, GitHub Pages has to stay enabled for this repository, otherwise
+`publish-csaf` fails. Once the input exists, set it to `https://secvisogram.github.io`,
+remove the rewrite and optionally disable Pages here.
 
 ## Publishing a document
 
@@ -59,11 +75,12 @@ own and no local GitHub Pages site. The published documents are served from
 2. Open a pull request against `main`.
 3. Merge it.
 
-The merge triggers [`trigger-publish.yml`](.github/workflows/trigger-publish.yml), which
-dispatches the publish job to `secvisogram/secvisogram.github.io` (see
-[Architecture](#architecture)). Follow the run of `publish-csaf.yml` in the **Actions** tab
-of that repository. If validation fails, `gh-pages` is left untouched and the log names the
-offending document.
+The merge triggers [`publish-csaf.yml`](.github/workflows/publish-csaf.yml), which
+validates, signs and publishes the documents, then dispatches the merge to
+`secvisogram/secvisogram.github.io` (see [Architecture](#architecture)). Follow the run in
+the **Actions** tab of this repository; the site update itself runs in the **Actions** tab
+of `secvisogram.github.io`. If validation fails, `gh-pages` is left untouched, the
+`trigger-publish` job does not run and the log names the offending document.
 
 ## Accessing a published document
 
