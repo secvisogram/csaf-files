@@ -18,7 +18,7 @@
         "term": "csaf"
       }
     ],
-    "updated": "2026-10-30T12:55:23Z",
+    "updated": "2026-10-30T12:58:33Z",
     "entry": [
       {
         "content": {
@@ -78,6 +78,38 @@
         ],
         "published": "2026-10-26T15:48:00Z",
         "title": "csaf-validator-lib is not affected by CVE-2026-111497 in the Node.js Brotli decoder",
+        "updated": "2026-10-26T15:48:00Z",
+        "format": {
+          "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",
+          "version": "2.0"
+        }
+      },
+      {
+        "content": {
+          "type": "application/json",
+          "src": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/secvisogram-2026-0001.json"
+        },
+        "id": "secvisogram-2026-0001",
+        "link": [
+          {
+            "rel": "self",
+            "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/secvisogram-2026-0001.json"
+          },
+          {
+            "rel": "hash",
+            "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/secvisogram-2026-0001.json.sha256"
+          },
+          {
+            "rel": "hash",
+            "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/secvisogram-2026-0001.json.sha512"
+          },
+          {
+            "rel": "signature",
+            "href": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white/2026/secvisogram-2026-0001.json.asc"
+          }
+        ],
+        "published": "2026-10-26T15:48:00Z",
+        "title": "Secvisogram is not affected by CVE-2026-111497 in the Node.js Brotli decoder",
         "updated": "2026-10-26T15:48:00Z",
         "format": {
           "schema": "https://docs.oasis-open.org/csaf/csaf/v2.0/csaf_json_schema.json",

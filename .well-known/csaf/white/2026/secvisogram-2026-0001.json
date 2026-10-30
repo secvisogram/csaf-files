@@ -1,0 +1,3145 @@
+{
+  "document": {
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en-US",
+    "notes": [
+      {
+        "category": "legal_disclaimer",
+        "text": "As a content provider, the Secvisogram Team is responsible under general law for its own content distributed for use. However, it remains your responsibility to carefully check usage and/or implementation of information provided with the content.",
+        "title": "Legal disclaimer"
+      },
+      {
+        "category": "summary",
+        "text": "Secvisogram is not affected by CVE-2026-111497 in the Node.js Brotli decoder, as Node.js is only used at build time and is not part of the delivered application. In the Docker image, Nginx is used instead, which is not vulnerable to this CVE in this configuration.",
+        "title": "Summary"
+      },
+      {
+        "category": "description",
+        "text": "Secvisogram is a web-based editor for CSAF 2.0 documents.",
+        "title": "Product description"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "name": "secvisogram",
+      "namespace": "https://github.com/secvisogram/secvisogram"
+    },
+    "references": [
+      {
+        "category": "self",
+        "summary": "secvisogram repository",
+        "url": "https://secvisogram.github.io/.well-known/csaf/white/2026/secvisogram-2026-0001.json"
+      }
+    ],
+    "title": "Secvisogram is not affected by CVE-2026-111497 in the Node.js Brotli decoder",
+    "tracking": {
+      "current_release_date": "2026-10-26T15:48:00.000Z",
+      "generator": {
+        "date": "2026-10-26T15:48:00.000Z",
+        "engine": {
+          "name": "Secvisogram",
+          "version": "2.5.40"
+        }
+      },
+      "id": "secvisogram-2026-0001",
+      "initial_release_date": "2026-10-26T15:48:00.000Z",
+      "revision_history": [
+        {
+          "date": "2026-10-26T15:48:00.000Z",
+          "number": "1",
+          "summary": "Initial version."
+        }
+      ],
+      "status": "final",
+      "version": "1"
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "0.1.0",
+                "product": {
+                  "name": "Secvisogram 0.1.0",
+                  "product_id": "CSAFPID-00001",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:0.1.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v0.1.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.0.0",
+                "product": {
+                  "name": "Secvisogram 1.0.0",
+                  "product_id": "CSAFPID-00002",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.0.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.0.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.0.1",
+                "product": {
+                  "name": "Secvisogram 1.0.1",
+                  "product_id": "CSAFPID-00003",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.0.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.0.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.1.0",
+                "product": {
+                  "name": "Secvisogram 1.1.0",
+                  "product_id": "CSAFPID-00004",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.1.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.1.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.1.1",
+                "product": {
+                  "name": "Secvisogram 1.1.1",
+                  "product_id": "CSAFPID-00005",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.1.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.1.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.1.2",
+                "product": {
+                  "name": "Secvisogram 1.1.2",
+                  "product_id": "CSAFPID-00006",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.1.2:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.1.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.1.3",
+                "product": {
+                  "name": "Secvisogram 1.1.3",
+                  "product_id": "CSAFPID-00007",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.1.3:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.1.3"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.2.0",
+                "product": {
+                  "name": "Secvisogram 1.2.0",
+                  "product_id": "CSAFPID-00008",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.2.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.2.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.0",
+                "product": {
+                  "name": "Secvisogram 1.3.0",
+                  "product_id": "CSAFPID-00009",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.2",
+                "product": {
+                  "name": "Secvisogram 1.3.2",
+                  "product_id": "CSAFPID-00010",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.2:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.3",
+                "product": {
+                  "name": "Secvisogram 1.3.3",
+                  "product_id": "CSAFPID-00011",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.3:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.3"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.4",
+                "product": {
+                  "name": "Secvisogram 1.3.4",
+                  "product_id": "CSAFPID-00012",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.4:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.4"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.5",
+                "product": {
+                  "name": "Secvisogram 1.3.5",
+                  "product_id": "CSAFPID-00013",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.5:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.5"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.6",
+                "product": {
+                  "name": "Secvisogram 1.3.6",
+                  "product_id": "CSAFPID-00014",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.6:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.6"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.7",
+                "product": {
+                  "name": "Secvisogram 1.3.7",
+                  "product_id": "CSAFPID-00015",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.7:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.7"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.8",
+                "product": {
+                  "name": "Secvisogram 1.3.8",
+                  "product_id": "CSAFPID-00016",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.8:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.8"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.9",
+                "product": {
+                  "name": "Secvisogram 1.3.9",
+                  "product_id": "CSAFPID-00017",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.9:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.9"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.10",
+                "product": {
+                  "name": "Secvisogram 1.3.10",
+                  "product_id": "CSAFPID-00018",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.10:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.10"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.11",
+                "product": {
+                  "name": "Secvisogram 1.3.11",
+                  "product_id": "CSAFPID-00019",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.11:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.11"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.12",
+                "product": {
+                  "name": "Secvisogram 1.3.12",
+                  "product_id": "CSAFPID-00020",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.12:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.12"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.13",
+                "product": {
+                  "name": "Secvisogram 1.3.13",
+                  "product_id": "CSAFPID-00021",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.13:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.13"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.14",
+                "product": {
+                  "name": "Secvisogram 1.3.14",
+                  "product_id": "CSAFPID-00022",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.14:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.14"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.15",
+                "product": {
+                  "name": "Secvisogram 1.3.15",
+                  "product_id": "CSAFPID-00023",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.15:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.15"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.16",
+                "product": {
+                  "name": "Secvisogram 1.3.16",
+                  "product_id": "CSAFPID-00024",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.16:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.16"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.17",
+                "product": {
+                  "name": "Secvisogram 1.3.17",
+                  "product_id": "CSAFPID-00025",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.17:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.17"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.18",
+                "product": {
+                  "name": "Secvisogram 1.3.18",
+                  "product_id": "CSAFPID-00026",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.18:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.18"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.19",
+                "product": {
+                  "name": "Secvisogram 1.3.19",
+                  "product_id": "CSAFPID-00027",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.19:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.19"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.20",
+                "product": {
+                  "name": "Secvisogram 1.3.20",
+                  "product_id": "CSAFPID-00028",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.20:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.20"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.21",
+                "product": {
+                  "name": "Secvisogram 1.3.21",
+                  "product_id": "CSAFPID-00029",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.21:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.21"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.22",
+                "product": {
+                  "name": "Secvisogram 1.3.22",
+                  "product_id": "CSAFPID-00030",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.22:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.22"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.23",
+                "product": {
+                  "name": "Secvisogram 1.3.23",
+                  "product_id": "CSAFPID-00031",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.23:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.23"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.24",
+                "product": {
+                  "name": "Secvisogram 1.3.24",
+                  "product_id": "CSAFPID-00032",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.24:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.24"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.25",
+                "product": {
+                  "name": "Secvisogram 1.3.25",
+                  "product_id": "CSAFPID-00033",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.25:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.25"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.26",
+                "product": {
+                  "name": "Secvisogram 1.3.26",
+                  "product_id": "CSAFPID-00034",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.26:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.26"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.27",
+                "product": {
+                  "name": "Secvisogram 1.3.27",
+                  "product_id": "CSAFPID-00035",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.27:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.27"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.28",
+                "product": {
+                  "name": "Secvisogram 1.3.28",
+                  "product_id": "CSAFPID-00036",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.28:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.28"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.29",
+                "product": {
+                  "name": "Secvisogram 1.3.29",
+                  "product_id": "CSAFPID-00037",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.29:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.29"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.30",
+                "product": {
+                  "name": "Secvisogram 1.3.30",
+                  "product_id": "CSAFPID-00038",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.30:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.30"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.31",
+                "product": {
+                  "name": "Secvisogram 1.3.31",
+                  "product_id": "CSAFPID-00039",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.31:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.31"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.32",
+                "product": {
+                  "name": "Secvisogram 1.3.32",
+                  "product_id": "CSAFPID-00040",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.32:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.32"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.33",
+                "product": {
+                  "name": "Secvisogram 1.3.33",
+                  "product_id": "CSAFPID-00041",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.33:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.33"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.34",
+                "product": {
+                  "name": "Secvisogram 1.3.34",
+                  "product_id": "CSAFPID-00042",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.34:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.34"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.35",
+                "product": {
+                  "name": "Secvisogram 1.3.35",
+                  "product_id": "CSAFPID-00043",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.35:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.35"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.36",
+                "product": {
+                  "name": "Secvisogram 1.3.36",
+                  "product_id": "CSAFPID-00044",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.36:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.36"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.37",
+                "product": {
+                  "name": "Secvisogram 1.3.37",
+                  "product_id": "CSAFPID-00045",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.37:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.37"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.38",
+                "product": {
+                  "name": "Secvisogram 1.3.38",
+                  "product_id": "CSAFPID-00046",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.38:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.38"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.39",
+                "product": {
+                  "name": "Secvisogram 1.3.39",
+                  "product_id": "CSAFPID-00047",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.39:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.39"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.40",
+                "product": {
+                  "name": "Secvisogram 1.3.40",
+                  "product_id": "CSAFPID-00048",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.40:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.40"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.41",
+                "product": {
+                  "name": "Secvisogram 1.3.41",
+                  "product_id": "CSAFPID-00049",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.41:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.41"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.42",
+                "product": {
+                  "name": "Secvisogram 1.3.42",
+                  "product_id": "CSAFPID-00050",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.42:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.42"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.43",
+                "product": {
+                  "name": "Secvisogram 1.3.43",
+                  "product_id": "CSAFPID-00051",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.43:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.43"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.44",
+                "product": {
+                  "name": "Secvisogram 1.3.44",
+                  "product_id": "CSAFPID-00052",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.44:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.44"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.45",
+                "product": {
+                  "name": "Secvisogram 1.3.45",
+                  "product_id": "CSAFPID-00053",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.45:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.45"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.46",
+                "product": {
+                  "name": "Secvisogram 1.3.46",
+                  "product_id": "CSAFPID-00054",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.46:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.46"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.47",
+                "product": {
+                  "name": "Secvisogram 1.3.47",
+                  "product_id": "CSAFPID-00055",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.47:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.47"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.48",
+                "product": {
+                  "name": "Secvisogram 1.3.48",
+                  "product_id": "CSAFPID-00056",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.48:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.48"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.49",
+                "product": {
+                  "name": "Secvisogram 1.3.49",
+                  "product_id": "CSAFPID-00057",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.49:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.49"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.3.50",
+                "product": {
+                  "name": "Secvisogram 1.3.50",
+                  "product_id": "CSAFPID-00058",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.3.50:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.3.50"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.4.0",
+                "product": {
+                  "name": "Secvisogram 1.4.0",
+                  "product_id": "CSAFPID-00059",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.4.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.4.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.4.1",
+                "product": {
+                  "name": "Secvisogram 1.4.1",
+                  "product_id": "CSAFPID-00060",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.4.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.4.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.4.2",
+                "product": {
+                  "name": "Secvisogram 1.4.2",
+                  "product_id": "CSAFPID-00061",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.4.2:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.4.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.4.3",
+                "product": {
+                  "name": "Secvisogram 1.4.3",
+                  "product_id": "CSAFPID-00062",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.4.3:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.4.3"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.4.4",
+                "product": {
+                  "name": "Secvisogram 1.4.4",
+                  "product_id": "CSAFPID-00063",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.4.4:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.4.4"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.5.0",
+                "product": {
+                  "name": "Secvisogram 1.5.0",
+                  "product_id": "CSAFPID-00064",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.5.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.5.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.5.1",
+                "product": {
+                  "name": "Secvisogram 1.5.1",
+                  "product_id": "CSAFPID-00065",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.5.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.5.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.6.0",
+                "product": {
+                  "name": "Secvisogram 1.6.0",
+                  "product_id": "CSAFPID-00066",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.6.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.6.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.6.1",
+                "product": {
+                  "name": "Secvisogram 1.6.1",
+                  "product_id": "CSAFPID-00067",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.6.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.6.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.6.2",
+                "product": {
+                  "name": "Secvisogram 1.6.2",
+                  "product_id": "CSAFPID-00068",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.6.2:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.6.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.7.0",
+                "product": {
+                  "name": "Secvisogram 1.7.0",
+                  "product_id": "CSAFPID-00069",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.7.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.7.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.8.0",
+                "product": {
+                  "name": "Secvisogram 1.8.0",
+                  "product_id": "CSAFPID-00070",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.8.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.8.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.9.0",
+                "product": {
+                  "name": "Secvisogram 1.9.0",
+                  "product_id": "CSAFPID-00071",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.9.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.9.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.9.1",
+                "product": {
+                  "name": "Secvisogram 1.9.1",
+                  "product_id": "CSAFPID-00072",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.9.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.9.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.10.0",
+                "product": {
+                  "name": "Secvisogram 1.10.0",
+                  "product_id": "CSAFPID-00073",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.10.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.10.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.11.0",
+                "product": {
+                  "name": "Secvisogram 1.11.0",
+                  "product_id": "CSAFPID-00074",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.11.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.11.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.12.0",
+                "product": {
+                  "name": "Secvisogram 1.12.0",
+                  "product_id": "CSAFPID-00075",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.12.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.12.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.12.1",
+                "product": {
+                  "name": "Secvisogram 1.12.1",
+                  "product_id": "CSAFPID-00076",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.12.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.12.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.13.0",
+                "product": {
+                  "name": "Secvisogram 1.13.0",
+                  "product_id": "CSAFPID-00077",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.13.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.13.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.14.0",
+                "product": {
+                  "name": "Secvisogram 1.14.0",
+                  "product_id": "CSAFPID-00078",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:1.14.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v1.14.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.0",
+                "product": {
+                  "name": "Secvisogram 2.0.0",
+                  "product_id": "CSAFPID-00079",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.1",
+                "product": {
+                  "name": "Secvisogram 2.0.1",
+                  "product_id": "CSAFPID-00080",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.2",
+                "product": {
+                  "name": "Secvisogram 2.0.2",
+                  "product_id": "CSAFPID-00081",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.2:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.3",
+                "product": {
+                  "name": "Secvisogram 2.0.3",
+                  "product_id": "CSAFPID-00082",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.3:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.3"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.4",
+                "product": {
+                  "name": "Secvisogram 2.0.4",
+                  "product_id": "CSAFPID-00083",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.4:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.4"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.5",
+                "product": {
+                  "name": "Secvisogram 2.0.5",
+                  "product_id": "CSAFPID-00084",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.5:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.5"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.6",
+                "product": {
+                  "name": "Secvisogram 2.0.6",
+                  "product_id": "CSAFPID-00085",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.6:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.6"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.7",
+                "product": {
+                  "name": "Secvisogram 2.0.7",
+                  "product_id": "CSAFPID-00086",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.7:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.7"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.8",
+                "product": {
+                  "name": "Secvisogram 2.0.8",
+                  "product_id": "CSAFPID-00087",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.8:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.8"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.9",
+                "product": {
+                  "name": "Secvisogram 2.0.9",
+                  "product_id": "CSAFPID-00088",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.9:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.9"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.10",
+                "product": {
+                  "name": "Secvisogram 2.0.10",
+                  "product_id": "CSAFPID-00089",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.10:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.10"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.11",
+                "product": {
+                  "name": "Secvisogram 2.0.11",
+                  "product_id": "CSAFPID-00090",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.11:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.11"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.12",
+                "product": {
+                  "name": "Secvisogram 2.0.12",
+                  "product_id": "CSAFPID-00091",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.12:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.12"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.13",
+                "product": {
+                  "name": "Secvisogram 2.0.13",
+                  "product_id": "CSAFPID-00092",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.13:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.13"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.14",
+                "product": {
+                  "name": "Secvisogram 2.0.14",
+                  "product_id": "CSAFPID-00093",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.14:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.14"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.15",
+                "product": {
+                  "name": "Secvisogram 2.0.15",
+                  "product_id": "CSAFPID-00094",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.15:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.15"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.16",
+                "product": {
+                  "name": "Secvisogram 2.0.16",
+                  "product_id": "CSAFPID-00095",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.16:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.16"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.17",
+                "product": {
+                  "name": "Secvisogram 2.0.17",
+                  "product_id": "CSAFPID-00096",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.17:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.17"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.18",
+                "product": {
+                  "name": "Secvisogram 2.0.18",
+                  "product_id": "CSAFPID-00097",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.18:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.18"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.0.19",
+                "product": {
+                  "name": "Secvisogram 2.0.19",
+                  "product_id": "CSAFPID-00098",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.0.19:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.0.19"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.1.0",
+                "product": {
+                  "name": "Secvisogram 2.1.0",
+                  "product_id": "CSAFPID-00099",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.1.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.1.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.0",
+                "product": {
+                  "name": "Secvisogram 2.2.0",
+                  "product_id": "CSAFPID-00100",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.1",
+                "product": {
+                  "name": "Secvisogram 2.2.1",
+                  "product_id": "CSAFPID-00101",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.2",
+                "product": {
+                  "name": "Secvisogram 2.2.2",
+                  "product_id": "CSAFPID-00102",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.2:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.3",
+                "product": {
+                  "name": "Secvisogram 2.2.3",
+                  "product_id": "CSAFPID-00103",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.3:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.3"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.4",
+                "product": {
+                  "name": "Secvisogram 2.2.4",
+                  "product_id": "CSAFPID-00104",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.4:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.4"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.5",
+                "product": {
+                  "name": "Secvisogram 2.2.5",
+                  "product_id": "CSAFPID-00105",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.5:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.5"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.6",
+                "product": {
+                  "name": "Secvisogram 2.2.6",
+                  "product_id": "CSAFPID-00106",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.6:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.6"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.7",
+                "product": {
+                  "name": "Secvisogram 2.2.7",
+                  "product_id": "CSAFPID-00107",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.7:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.7"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.8",
+                "product": {
+                  "name": "Secvisogram 2.2.8",
+                  "product_id": "CSAFPID-00108",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.8:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.8"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.9",
+                "product": {
+                  "name": "Secvisogram 2.2.9",
+                  "product_id": "CSAFPID-00109",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.9:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.9"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.10",
+                "product": {
+                  "name": "Secvisogram 2.2.10",
+                  "product_id": "CSAFPID-00110",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.10:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.10"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.11",
+                "product": {
+                  "name": "Secvisogram 2.2.11",
+                  "product_id": "CSAFPID-00111",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.11:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.11"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.12",
+                "product": {
+                  "name": "Secvisogram 2.2.12",
+                  "product_id": "CSAFPID-00112",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.12:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.12"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.13",
+                "product": {
+                  "name": "Secvisogram 2.2.13",
+                  "product_id": "CSAFPID-00113",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.13:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.13"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.14",
+                "product": {
+                  "name": "Secvisogram 2.2.14",
+                  "product_id": "CSAFPID-00114",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.14:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.14"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.15",
+                "product": {
+                  "name": "Secvisogram 2.2.15",
+                  "product_id": "CSAFPID-00115",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.15:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.15"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.2.16",
+                "product": {
+                  "name": "Secvisogram 2.2.16",
+                  "product_id": "CSAFPID-00116",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.2.16:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.2.16"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.3.0",
+                "product": {
+                  "name": "Secvisogram 2.3.0",
+                  "product_id": "CSAFPID-00117",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.3.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.3.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.3.1",
+                "product": {
+                  "name": "Secvisogram 2.3.1",
+                  "product_id": "CSAFPID-00118",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.3.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.3.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.3.2",
+                "product": {
+                  "name": "Secvisogram 2.3.2",
+                  "product_id": "CSAFPID-00119",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.3.2:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.3.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.3.3",
+                "product": {
+                  "name": "Secvisogram 2.3.3",
+                  "product_id": "CSAFPID-00120",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.3.3:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.3.3"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.4.0",
+                "product": {
+                  "name": "Secvisogram 2.4.0",
+                  "product_id": "CSAFPID-00121",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.4.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.4.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.4.1",
+                "product": {
+                  "name": "Secvisogram 2.4.1",
+                  "product_id": "CSAFPID-00122",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.4.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.4.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.4.2",
+                "product": {
+                  "name": "Secvisogram 2.4.2",
+                  "product_id": "CSAFPID-00123",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.4.2:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.4.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.0",
+                "product": {
+                  "name": "Secvisogram 2.5.0",
+                  "product_id": "CSAFPID-00124",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.1",
+                "product": {
+                  "name": "Secvisogram 2.5.1",
+                  "product_id": "CSAFPID-00125",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.2",
+                "product": {
+                  "name": "Secvisogram 2.5.2",
+                  "product_id": "CSAFPID-00126",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.2:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.3",
+                "product": {
+                  "name": "Secvisogram 2.5.3",
+                  "product_id": "CSAFPID-00127",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.3:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.3"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.4",
+                "product": {
+                  "name": "Secvisogram 2.5.4",
+                  "product_id": "CSAFPID-00128",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.4:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.4"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.5",
+                "product": {
+                  "name": "Secvisogram 2.5.5",
+                  "product_id": "CSAFPID-00129",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.5:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.5"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.6",
+                "product": {
+                  "name": "Secvisogram 2.5.6",
+                  "product_id": "CSAFPID-00130",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.6:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.6"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.7",
+                "product": {
+                  "name": "Secvisogram 2.5.7",
+                  "product_id": "CSAFPID-00131",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.7:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.7"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.8",
+                "product": {
+                  "name": "Secvisogram 2.5.8",
+                  "product_id": "CSAFPID-00132",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.8:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.8"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.9",
+                "product": {
+                  "name": "Secvisogram 2.5.9",
+                  "product_id": "CSAFPID-00133",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.9:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.9"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.10",
+                "product": {
+                  "name": "Secvisogram 2.5.10",
+                  "product_id": "CSAFPID-00134",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.10:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.10"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.11",
+                "product": {
+                  "name": "Secvisogram 2.5.11",
+                  "product_id": "CSAFPID-00135",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.11:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.11"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.12",
+                "product": {
+                  "name": "Secvisogram 2.5.12",
+                  "product_id": "CSAFPID-00136",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.12:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.12"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.13",
+                "product": {
+                  "name": "Secvisogram 2.5.13",
+                  "product_id": "CSAFPID-00137",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.13:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.13"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.14",
+                "product": {
+                  "name": "Secvisogram 2.5.14",
+                  "product_id": "CSAFPID-00138",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.14:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.14"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.15",
+                "product": {
+                  "name": "Secvisogram 2.5.15",
+                  "product_id": "CSAFPID-00139",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.15:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.15"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.16",
+                "product": {
+                  "name": "Secvisogram 2.5.16",
+                  "product_id": "CSAFPID-00140",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.16:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.16"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.17",
+                "product": {
+                  "name": "Secvisogram 2.5.17",
+                  "product_id": "CSAFPID-00141",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.17:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.17"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.18",
+                "product": {
+                  "name": "Secvisogram 2.5.18",
+                  "product_id": "CSAFPID-00142",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.18:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.18"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.19",
+                "product": {
+                  "name": "Secvisogram 2.5.19",
+                  "product_id": "CSAFPID-00143",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.19:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.19"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.20",
+                "product": {
+                  "name": "Secvisogram 2.5.20",
+                  "product_id": "CSAFPID-00144",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.20:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.20"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.21",
+                "product": {
+                  "name": "Secvisogram 2.5.21",
+                  "product_id": "CSAFPID-00145",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.21:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.21"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.22",
+                "product": {
+                  "name": "Secvisogram 2.5.22",
+                  "product_id": "CSAFPID-00146",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.22:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.22"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.23",
+                "product": {
+                  "name": "Secvisogram 2.5.23",
+                  "product_id": "CSAFPID-00147",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.23:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.23"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.24",
+                "product": {
+                  "name": "Secvisogram 2.5.24",
+                  "product_id": "CSAFPID-00148",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.24:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.24"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.25",
+                "product": {
+                  "name": "Secvisogram 2.5.25",
+                  "product_id": "CSAFPID-00149",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.25:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.25"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.26",
+                "product": {
+                  "name": "Secvisogram 2.5.26",
+                  "product_id": "CSAFPID-00150",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.26:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.26"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.27",
+                "product": {
+                  "name": "Secvisogram 2.5.27",
+                  "product_id": "CSAFPID-00151",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.27:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.27"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.28",
+                "product": {
+                  "name": "Secvisogram 2.5.28",
+                  "product_id": "CSAFPID-00152",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.28:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.28"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.29",
+                "product": {
+                  "name": "Secvisogram 2.5.29",
+                  "product_id": "CSAFPID-00153",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.29:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.29"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.30",
+                "product": {
+                  "name": "Secvisogram 2.5.30",
+                  "product_id": "CSAFPID-00154",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.30:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.30"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.31",
+                "product": {
+                  "name": "Secvisogram 2.5.31",
+                  "product_id": "CSAFPID-00155",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.31:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.31"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.32",
+                "product": {
+                  "name": "Secvisogram 2.5.32",
+                  "product_id": "CSAFPID-00156",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.32:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.32"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.33",
+                "product": {
+                  "name": "Secvisogram 2.5.33",
+                  "product_id": "CSAFPID-00157",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.33:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.33"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.34",
+                "product": {
+                  "name": "Secvisogram 2.5.34",
+                  "product_id": "CSAFPID-00158",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.34:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.34"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.35",
+                "product": {
+                  "name": "Secvisogram 2.5.35",
+                  "product_id": "CSAFPID-00159",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.35:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.35"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.36",
+                "product": {
+                  "name": "Secvisogram 2.5.36",
+                  "product_id": "CSAFPID-00160",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.36:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.36"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.37",
+                "product": {
+                  "name": "Secvisogram 2.5.37",
+                  "product_id": "CSAFPID-00161",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.37:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.37"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.38",
+                "product": {
+                  "name": "Secvisogram 2.5.38",
+                  "product_id": "CSAFPID-00162",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.38:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.38"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.39",
+                "product": {
+                  "name": "Secvisogram 2.5.39",
+                  "product_id": "CSAFPID-00163",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.39:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.39"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.40",
+                "product": {
+                  "name": "Secvisogram 2.5.40",
+                  "product_id": "CSAFPID-00164",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.40:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.40"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.41",
+                "product": {
+                  "name": "Secvisogram 2.5.41",
+                  "product_id": "CSAFPID-00165",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.41:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.41"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.42",
+                "product": {
+                  "name": "Secvisogram 2.5.42",
+                  "product_id": "CSAFPID-00166",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.42:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.42"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.43",
+                "product": {
+                  "name": "Secvisogram 2.5.43",
+                  "product_id": "CSAFPID-00167",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.43:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.43"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.44",
+                "product": {
+                  "name": "Secvisogram 2.5.44",
+                  "product_id": "CSAFPID-00168",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.44:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.44"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.45",
+                "product": {
+                  "name": "Secvisogram 2.5.45",
+                  "product_id": "CSAFPID-00169",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.45:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.45"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.46",
+                "product": {
+                  "name": "Secvisogram 2.5.46",
+                  "product_id": "CSAFPID-00170",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.46:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.46"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.5.47",
+                "product": {
+                  "name": "Secvisogram 2.5.47",
+                  "product_id": "CSAFPID-00171",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.5.47:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.5.47"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.0",
+                "product": {
+                  "name": "Secvisogram 2.6.0",
+                  "product_id": "CSAFPID-00172",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.0:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.0"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.1",
+                "product": {
+                  "name": "Secvisogram 2.6.1",
+                  "product_id": "CSAFPID-00173",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.1:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.2",
+                "product": {
+                  "name": "Secvisogram 2.6.2",
+                  "product_id": "CSAFPID-00174",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.2:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.3",
+                "product": {
+                  "name": "Secvisogram 2.6.3",
+                  "product_id": "CSAFPID-00175",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.3:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.3"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.4",
+                "product": {
+                  "name": "Secvisogram 2.6.4",
+                  "product_id": "CSAFPID-00176",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.4:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.4"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.5",
+                "product": {
+                  "name": "Secvisogram 2.6.5",
+                  "product_id": "CSAFPID-00177",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.5:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.5"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.6",
+                "product": {
+                  "name": "Secvisogram 2.6.6",
+                  "product_id": "CSAFPID-00178",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.6:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.6"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.7",
+                "product": {
+                  "name": "Secvisogram 2.6.7",
+                  "product_id": "CSAFPID-00179",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.7:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.7"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.8",
+                "product": {
+                  "name": "Secvisogram 2.6.8",
+                  "product_id": "CSAFPID-00180",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.8:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.8"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.9",
+                "product": {
+                  "name": "Secvisogram 2.6.9",
+                  "product_id": "CSAFPID-00181",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.9:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.9"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.10",
+                "product": {
+                  "name": "Secvisogram 2.6.10",
+                  "product_id": "CSAFPID-00182",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.10:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.10"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.11",
+                "product": {
+                  "name": "Secvisogram 2.6.11",
+                  "product_id": "CSAFPID-00183",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.11:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.11"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.12",
+                "product": {
+                  "name": "Secvisogram 2.6.12",
+                  "product_id": "CSAFPID-00184",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.12:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.12"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.13",
+                "product": {
+                  "name": "Secvisogram 2.6.13",
+                  "product_id": "CSAFPID-00185",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.13:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.13"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.14",
+                "product": {
+                  "name": "Secvisogram 2.6.14",
+                  "product_id": "CSAFPID-00186",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.14:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.14"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.15",
+                "product": {
+                  "name": "Secvisogram 2.6.15",
+                  "product_id": "CSAFPID-00187",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.15:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.15"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "2.6.16",
+                "product": {
+                  "name": "Secvisogram 2.6.16",
+                  "product_id": "CSAFPID-00188",
+                  "product_identification_helper": {
+                    "cpe": "cpe:2.3:a:secvisogram:secvisogram:2.6.16:*:*:*:*:*:*:*.*",
+                    "purl": "pkg:github/secvisogram/secvisogram@v2.6.16"
+                  }
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "Secvisogram"
+          }
+        ],
+        "category": "vendor",
+        "name": "Secvisogram"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-111497",
+      "discovery_date": "2026-10-22T00:00:00.000Z",
+      "flags": [
+        {
+          "label": "vulnerable_code_not_in_execute_path",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007",
+            "CSAFPID-00008",
+            "CSAFPID-00009",
+            "CSAFPID-00010",
+            "CSAFPID-00011",
+            "CSAFPID-00012",
+            "CSAFPID-00013",
+            "CSAFPID-00014",
+            "CSAFPID-00015",
+            "CSAFPID-00016",
+            "CSAFPID-00017",
+            "CSAFPID-00018",
+            "CSAFPID-00019",
+            "CSAFPID-00020",
+            "CSAFPID-00021",
+            "CSAFPID-00022",
+            "CSAFPID-00023",
+            "CSAFPID-00024",
+            "CSAFPID-00025",
+            "CSAFPID-00026",
+            "CSAFPID-00027",
+            "CSAFPID-00028",
+            "CSAFPID-00029",
+            "CSAFPID-00030",
+            "CSAFPID-00031",
+            "CSAFPID-00032",
+            "CSAFPID-00033",
+            "CSAFPID-00034",
+            "CSAFPID-00035",
+            "CSAFPID-00036",
+            "CSAFPID-00037",
+            "CSAFPID-00038",
+            "CSAFPID-00039",
+            "CSAFPID-00040",
+            "CSAFPID-00041",
+            "CSAFPID-00042",
+            "CSAFPID-00043",
+            "CSAFPID-00044",
+            "CSAFPID-00045",
+            "CSAFPID-00046",
+            "CSAFPID-00047",
+            "CSAFPID-00048",
+            "CSAFPID-00049",
+            "CSAFPID-00050",
+            "CSAFPID-00051",
+            "CSAFPID-00052",
+            "CSAFPID-00053",
+            "CSAFPID-00054",
+            "CSAFPID-00055",
+            "CSAFPID-00056",
+            "CSAFPID-00057",
+            "CSAFPID-00058",
+            "CSAFPID-00059",
+            "CSAFPID-00060",
+            "CSAFPID-00061",
+            "CSAFPID-00062",
+            "CSAFPID-00063",
+            "CSAFPID-00064",
+            "CSAFPID-00065",
+            "CSAFPID-00066",
+            "CSAFPID-00067",
+            "CSAFPID-00068",
+            "CSAFPID-00069",
+            "CSAFPID-00070",
+            "CSAFPID-00071",
+            "CSAFPID-00072",
+            "CSAFPID-00073",
+            "CSAFPID-00074",
+            "CSAFPID-00075",
+            "CSAFPID-00076",
+            "CSAFPID-00077",
+            "CSAFPID-00078",
+            "CSAFPID-00079",
+            "CSAFPID-00080",
+            "CSAFPID-00081",
+            "CSAFPID-00082",
+            "CSAFPID-00083",
+            "CSAFPID-00084",
+            "CSAFPID-00085",
+            "CSAFPID-00086",
+            "CSAFPID-00087",
+            "CSAFPID-00088",
+            "CSAFPID-00089",
+            "CSAFPID-00090",
+            "CSAFPID-00091",
+            "CSAFPID-00092",
+            "CSAFPID-00093",
+            "CSAFPID-00094",
+            "CSAFPID-00095",
+            "CSAFPID-00096",
+            "CSAFPID-00097",
+            "CSAFPID-00098",
+            "CSAFPID-00099",
+            "CSAFPID-00100",
+            "CSAFPID-00101",
+            "CSAFPID-00102",
+            "CSAFPID-00103",
+            "CSAFPID-00104",
+            "CSAFPID-00105",
+            "CSAFPID-00106",
+            "CSAFPID-00107",
+            "CSAFPID-00108",
+            "CSAFPID-00109",
+            "CSAFPID-00110",
+            "CSAFPID-00111",
+            "CSAFPID-00112",
+            "CSAFPID-00113",
+            "CSAFPID-00114",
+            "CSAFPID-00115",
+            "CSAFPID-00116",
+            "CSAFPID-00117",
+            "CSAFPID-00118",
+            "CSAFPID-00119",
+            "CSAFPID-00120",
+            "CSAFPID-00121",
+            "CSAFPID-00122",
+            "CSAFPID-00123",
+            "CSAFPID-00124",
+            "CSAFPID-00125",
+            "CSAFPID-00126",
+            "CSAFPID-00127",
+            "CSAFPID-00128",
+            "CSAFPID-00129",
+            "CSAFPID-00130",
+            "CSAFPID-00131",
+            "CSAFPID-00132",
+            "CSAFPID-00133",
+            "CSAFPID-00134",
+            "CSAFPID-00135",
+            "CSAFPID-00136",
+            "CSAFPID-00137",
+            "CSAFPID-00138",
+            "CSAFPID-00139",
+            "CSAFPID-00140",
+            "CSAFPID-00141",
+            "CSAFPID-00142",
+            "CSAFPID-00143",
+            "CSAFPID-00144",
+            "CSAFPID-00145",
+            "CSAFPID-00146",
+            "CSAFPID-00147",
+            "CSAFPID-00148",
+            "CSAFPID-00149",
+            "CSAFPID-00150",
+            "CSAFPID-00151",
+            "CSAFPID-00152",
+            "CSAFPID-00153",
+            "CSAFPID-00154",
+            "CSAFPID-00155",
+            "CSAFPID-00156",
+            "CSAFPID-00157",
+            "CSAFPID-00158",
+            "CSAFPID-00159",
+            "CSAFPID-00160",
+            "CSAFPID-00161",
+            "CSAFPID-00162",
+            "CSAFPID-00163",
+            "CSAFPID-00164",
+            "CSAFPID-00165",
+            "CSAFPID-00166",
+            "CSAFPID-00167",
+            "CSAFPID-00168",
+            "CSAFPID-00169",
+            "CSAFPID-00170",
+            "CSAFPID-00171",
+            "CSAFPID-00172",
+            "CSAFPID-00173",
+            "CSAFPID-00174",
+            "CSAFPID-00175",
+            "CSAFPID-00176",
+            "CSAFPID-00177",
+            "CSAFPID-00178",
+            "CSAFPID-00179",
+            "CSAFPID-00180",
+            "CSAFPID-00181",
+            "CSAFPID-00182",
+            "CSAFPID-00183",
+            "CSAFPID-00184",
+            "CSAFPID-00185",
+            "CSAFPID-00186",
+            "CSAFPID-00187",
+            "CSAFPID-00188"
+          ]
+        }
+      ],
+      "notes": [
+        {
+          "category": "description",
+          "text": "Brotli decoder in Node.js (24.x before 24.22.1, 22.x before 22.23.4) mishandles crafted compressed streams and may lead to remote code execution.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_not_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007",
+          "CSAFPID-00008",
+          "CSAFPID-00009",
+          "CSAFPID-00010",
+          "CSAFPID-00011",
+          "CSAFPID-00012",
+          "CSAFPID-00013",
+          "CSAFPID-00014",
+          "CSAFPID-00015",
+          "CSAFPID-00016",
+          "CSAFPID-00017",
+          "CSAFPID-00018",
+          "CSAFPID-00019",
+          "CSAFPID-00020",
+          "CSAFPID-00021",
+          "CSAFPID-00022",
+          "CSAFPID-00023",
+          "CSAFPID-00024",
+          "CSAFPID-00025",
+          "CSAFPID-00026",
+          "CSAFPID-00027",
+          "CSAFPID-00028",
+          "CSAFPID-00029",
+          "CSAFPID-00030",
+          "CSAFPID-00031",
+          "CSAFPID-00032",
+          "CSAFPID-00033",
+          "CSAFPID-00034",
+          "CSAFPID-00035",
+          "CSAFPID-00036",
+          "CSAFPID-00037",
+          "CSAFPID-00038",
+          "CSAFPID-00039",
+          "CSAFPID-00040",
+          "CSAFPID-00041",
+          "CSAFPID-00042",
+          "CSAFPID-00043",
+          "CSAFPID-00044",
+          "CSAFPID-00045",
+          "CSAFPID-00046",
+          "CSAFPID-00047",
+          "CSAFPID-00048",
+          "CSAFPID-00049",
+          "CSAFPID-00050",
+          "CSAFPID-00051",
+          "CSAFPID-00052",
+          "CSAFPID-00053",
+          "CSAFPID-00054",
+          "CSAFPID-00055",
+          "CSAFPID-00056",
+          "CSAFPID-00057",
+          "CSAFPID-00058",
+          "CSAFPID-00059",
+          "CSAFPID-00060",
+          "CSAFPID-00061",
+          "CSAFPID-00062",
+          "CSAFPID-00063",
+          "CSAFPID-00064",
+          "CSAFPID-00065",
+          "CSAFPID-00066",
+          "CSAFPID-00067",
+          "CSAFPID-00068",
+          "CSAFPID-00069",
+          "CSAFPID-00070",
+          "CSAFPID-00071",
+          "CSAFPID-00072",
+          "CSAFPID-00073",
+          "CSAFPID-00074",
+          "CSAFPID-00075",
+          "CSAFPID-00076",
+          "CSAFPID-00077",
+          "CSAFPID-00078",
+          "CSAFPID-00079",
+          "CSAFPID-00080",
+          "CSAFPID-00081",
+          "CSAFPID-00082",
+          "CSAFPID-00083",
+          "CSAFPID-00084",
+          "CSAFPID-00085",
+          "CSAFPID-00086",
+          "CSAFPID-00087",
+          "CSAFPID-00088",
+          "CSAFPID-00089",
+          "CSAFPID-00090",
+          "CSAFPID-00091",
+          "CSAFPID-00092",
+          "CSAFPID-00093",
+          "CSAFPID-00094",
+          "CSAFPID-00095",
+          "CSAFPID-00096",
+          "CSAFPID-00097",
+          "CSAFPID-00098",
+          "CSAFPID-00099",
+          "CSAFPID-00100",
+          "CSAFPID-00101",
+          "CSAFPID-00102",
+          "CSAFPID-00103",
+          "CSAFPID-00104",
+          "CSAFPID-00105",
+          "CSAFPID-00106",
+          "CSAFPID-00107",
+          "CSAFPID-00108",
+          "CSAFPID-00109",
+          "CSAFPID-00110",
+          "CSAFPID-00111",
+          "CSAFPID-00112",
+          "CSAFPID-00113",
+          "CSAFPID-00114",
+          "CSAFPID-00115",
+          "CSAFPID-00116",
+          "CSAFPID-00117",
+          "CSAFPID-00118",
+          "CSAFPID-00119",
+          "CSAFPID-00120",
+          "CSAFPID-00121",
+          "CSAFPID-00122",
+          "CSAFPID-00123",
+          "CSAFPID-00124",
+          "CSAFPID-00125",
+          "CSAFPID-00126",
+          "CSAFPID-00127",
+          "CSAFPID-00128",
+          "CSAFPID-00129",
+          "CSAFPID-00130",
+          "CSAFPID-00131",
+          "CSAFPID-00132",
+          "CSAFPID-00133",
+          "CSAFPID-00134",
+          "CSAFPID-00135",
+          "CSAFPID-00136",
+          "CSAFPID-00137",
+          "CSAFPID-00138",
+          "CSAFPID-00139",
+          "CSAFPID-00140",
+          "CSAFPID-00141",
+          "CSAFPID-00142",
+          "CSAFPID-00143",
+          "CSAFPID-00144",
+          "CSAFPID-00145",
+          "CSAFPID-00146",
+          "CSAFPID-00147",
+          "CSAFPID-00148",
+          "CSAFPID-00149",
+          "CSAFPID-00150",
+          "CSAFPID-00151",
+          "CSAFPID-00152",
+          "CSAFPID-00153",
+          "CSAFPID-00154",
+          "CSAFPID-00155",
+          "CSAFPID-00156",
+          "CSAFPID-00157",
+          "CSAFPID-00158",
+          "CSAFPID-00159",
+          "CSAFPID-00160",
+          "CSAFPID-00161",
+          "CSAFPID-00162",
+          "CSAFPID-00163",
+          "CSAFPID-00164",
+          "CSAFPID-00165",
+          "CSAFPID-00166",
+          "CSAFPID-00167",
+          "CSAFPID-00168",
+          "CSAFPID-00169",
+          "CSAFPID-00170",
+          "CSAFPID-00171",
+          "CSAFPID-00172",
+          "CSAFPID-00173",
+          "CSAFPID-00174",
+          "CSAFPID-00175",
+          "CSAFPID-00176",
+          "CSAFPID-00177",
+          "CSAFPID-00178",
+          "CSAFPID-00179",
+          "CSAFPID-00180",
+          "CSAFPID-00181",
+          "CSAFPID-00182",
+          "CSAFPID-00183",
+          "CSAFPID-00184",
+          "CSAFPID-00185",
+          "CSAFPID-00186",
+          "CSAFPID-00187",
+          "CSAFPID-00188"
+        ]
+      },
+      "scores": [
+        {
+          "cvss_v3": {
+            "attackComplexity": "LOW",
+            "attackVector": "NETWORK",
+            "availabilityImpact": "HIGH",
+            "baseScore": 9.8,
+            "baseSeverity": "CRITICAL",
+            "confidentialityImpact": "HIGH",
+            "environmentalScore": 9.8,
+            "environmentalSeverity": "CRITICAL",
+            "integrityImpact": "HIGH",
+            "privilegesRequired": "NONE",
+            "scope": "UNCHANGED",
+            "temporalScore": 9.8,
+            "temporalSeverity": "CRITICAL",
+            "userInteraction": "NONE",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007",
+            "CSAFPID-00008",
+            "CSAFPID-00009",
+            "CSAFPID-00010",
+            "CSAFPID-00011",
+            "CSAFPID-00012",
+            "CSAFPID-00013",
+            "CSAFPID-00014",
+            "CSAFPID-00015",
+            "CSAFPID-00016",
+            "CSAFPID-00017",
+            "CSAFPID-00018",
+            "CSAFPID-00019",
+            "CSAFPID-00020",
+            "CSAFPID-00021",
+            "CSAFPID-00022",
+            "CSAFPID-00023",
+            "CSAFPID-00024",
+            "CSAFPID-00025",
+            "CSAFPID-00026",
+            "CSAFPID-00027",
+            "CSAFPID-00028",
+            "CSAFPID-00029",
+            "CSAFPID-00030",
+            "CSAFPID-00031",
+            "CSAFPID-00032",
+            "CSAFPID-00033",
+            "CSAFPID-00034",
+            "CSAFPID-00035",
+            "CSAFPID-00036",
+            "CSAFPID-00037",
+            "CSAFPID-00038",
+            "CSAFPID-00039",
+            "CSAFPID-00040",
+            "CSAFPID-00041",
+            "CSAFPID-00042",
+            "CSAFPID-00043",
+            "CSAFPID-00044",
+            "CSAFPID-00045",
+            "CSAFPID-00046",
+            "CSAFPID-00047",
+            "CSAFPID-00048",
+            "CSAFPID-00049",
+            "CSAFPID-00050",
+            "CSAFPID-00051",
+            "CSAFPID-00052",
+            "CSAFPID-00053",
+            "CSAFPID-00054",
+            "CSAFPID-00055",
+            "CSAFPID-00056",
+            "CSAFPID-00057",
+            "CSAFPID-00058",
+            "CSAFPID-00059",
+            "CSAFPID-00060",
+            "CSAFPID-00061",
+            "CSAFPID-00062",
+            "CSAFPID-00063",
+            "CSAFPID-00064",
+            "CSAFPID-00065",
+            "CSAFPID-00066",
+            "CSAFPID-00067",
+            "CSAFPID-00068",
+            "CSAFPID-00069",
+            "CSAFPID-00070",
+            "CSAFPID-00071",
+            "CSAFPID-00072",
+            "CSAFPID-00073",
+            "CSAFPID-00074",
+            "CSAFPID-00075",
+            "CSAFPID-00076",
+            "CSAFPID-00077",
+            "CSAFPID-00078",
+            "CSAFPID-00079",
+            "CSAFPID-00080",
+            "CSAFPID-00081",
+            "CSAFPID-00082",
+            "CSAFPID-00083",
+            "CSAFPID-00084",
+            "CSAFPID-00085",
+            "CSAFPID-00086",
+            "CSAFPID-00087",
+            "CSAFPID-00088",
+            "CSAFPID-00089",
+            "CSAFPID-00090",
+            "CSAFPID-00091",
+            "CSAFPID-00092",
+            "CSAFPID-00093",
+            "CSAFPID-00094",
+            "CSAFPID-00095",
+            "CSAFPID-00096",
+            "CSAFPID-00097",
+            "CSAFPID-00098",
+            "CSAFPID-00099",
+            "CSAFPID-00100",
+            "CSAFPID-00101",
+            "CSAFPID-00102",
+            "CSAFPID-00103",
+            "CSAFPID-00104",
+            "CSAFPID-00105",
+            "CSAFPID-00106",
+            "CSAFPID-00107",
+            "CSAFPID-00108",
+            "CSAFPID-00109",
+            "CSAFPID-00110",
+            "CSAFPID-00111",
+            "CSAFPID-00112",
+            "CSAFPID-00113",
+            "CSAFPID-00114",
+            "CSAFPID-00115",
+            "CSAFPID-00116",
+            "CSAFPID-00117",
+            "CSAFPID-00118",
+            "CSAFPID-00119",
+            "CSAFPID-00120",
+            "CSAFPID-00121",
+            "CSAFPID-00122",
+            "CSAFPID-00123",
+            "CSAFPID-00124",
+            "CSAFPID-00125",
+            "CSAFPID-00126",
+            "CSAFPID-00127",
+            "CSAFPID-00128",
+            "CSAFPID-00129",
+            "CSAFPID-00130",
+            "CSAFPID-00131",
+            "CSAFPID-00132",
+            "CSAFPID-00133",
+            "CSAFPID-00134",
+            "CSAFPID-00135",
+            "CSAFPID-00136",
+            "CSAFPID-00137",
+            "CSAFPID-00138",
+            "CSAFPID-00139",
+            "CSAFPID-00140",
+            "CSAFPID-00141",
+            "CSAFPID-00142",
+            "CSAFPID-00143",
+            "CSAFPID-00144",
+            "CSAFPID-00145",
+            "CSAFPID-00146",
+            "CSAFPID-00147",
+            "CSAFPID-00148",
+            "CSAFPID-00149",
+            "CSAFPID-00150",
+            "CSAFPID-00151",
+            "CSAFPID-00152",
+            "CSAFPID-00153",
+            "CSAFPID-00154",
+            "CSAFPID-00155",
+            "CSAFPID-00156",
+            "CSAFPID-00157",
+            "CSAFPID-00158",
+            "CSAFPID-00159",
+            "CSAFPID-00160",
+            "CSAFPID-00161",
+            "CSAFPID-00162",
+            "CSAFPID-00163",
+            "CSAFPID-00164",
+            "CSAFPID-00165",
+            "CSAFPID-00166",
+            "CSAFPID-00167",
+            "CSAFPID-00168",
+            "CSAFPID-00169",
+            "CSAFPID-00170",
+            "CSAFPID-00171",
+            "CSAFPID-00172",
+            "CSAFPID-00173",
+            "CSAFPID-00174",
+            "CSAFPID-00175",
+            "CSAFPID-00176",
+            "CSAFPID-00177",
+            "CSAFPID-00178",
+            "CSAFPID-00179",
+            "CSAFPID-00180",
+            "CSAFPID-00181",
+            "CSAFPID-00182",
+            "CSAFPID-00183",
+            "CSAFPID-00184",
+            "CSAFPID-00185",
+            "CSAFPID-00186",
+            "CSAFPID-00187",
+            "CSAFPID-00188"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-10-26T15:48:00.000Z",
+          "details": "Node.js is only used to build Secvisogram. The delivered application consists of static files served by nginx and executed in the browser. It does not contain the Node.js runtime and does not decode Brotli data with Node.js.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007",
+            "CSAFPID-00008",
+            "CSAFPID-00009",
+            "CSAFPID-00010",
+            "CSAFPID-00011",
+            "CSAFPID-00012",
+            "CSAFPID-00013",
+            "CSAFPID-00014",
+            "CSAFPID-00015",
+            "CSAFPID-00016",
+            "CSAFPID-00017",
+            "CSAFPID-00018",
+            "CSAFPID-00019",
+            "CSAFPID-00020",
+            "CSAFPID-00021",
+            "CSAFPID-00022",
+            "CSAFPID-00023",
+            "CSAFPID-00024",
+            "CSAFPID-00025",
+            "CSAFPID-00026",
+            "CSAFPID-00027",
+            "CSAFPID-00028",
+            "CSAFPID-00029",
+            "CSAFPID-00030",
+            "CSAFPID-00031",
+            "CSAFPID-00032",
+            "CSAFPID-00033",
+            "CSAFPID-00034",
+            "CSAFPID-00035",
+            "CSAFPID-00036",
+            "CSAFPID-00037",
+            "CSAFPID-00038",
+            "CSAFPID-00039",
+            "CSAFPID-00040",
+            "CSAFPID-00041",
+            "CSAFPID-00042",
+            "CSAFPID-00043",
+            "CSAFPID-00044",
+            "CSAFPID-00045",
+            "CSAFPID-00046",
+            "CSAFPID-00047",
+            "CSAFPID-00048",
+            "CSAFPID-00049",
+            "CSAFPID-00050",
+            "CSAFPID-00051",
+            "CSAFPID-00052",
+            "CSAFPID-00053",
+            "CSAFPID-00054",
+            "CSAFPID-00055",
+            "CSAFPID-00056",
+            "CSAFPID-00057",
+            "CSAFPID-00058",
+            "CSAFPID-00059",
+            "CSAFPID-00060",
+            "CSAFPID-00061",
+            "CSAFPID-00062",
+            "CSAFPID-00063",
+            "CSAFPID-00064",
+            "CSAFPID-00065",
+            "CSAFPID-00066",
+            "CSAFPID-00067",
+            "CSAFPID-00068",
+            "CSAFPID-00069",
+            "CSAFPID-00070",
+            "CSAFPID-00071",
+            "CSAFPID-00072",
+            "CSAFPID-00073",
+            "CSAFPID-00074",
+            "CSAFPID-00075",
+            "CSAFPID-00076",
+            "CSAFPID-00077",
+            "CSAFPID-00078",
+            "CSAFPID-00079",
+            "CSAFPID-00080",
+            "CSAFPID-00081",
+            "CSAFPID-00082",
+            "CSAFPID-00083",
+            "CSAFPID-00084",
+            "CSAFPID-00085",
+            "CSAFPID-00086",
+            "CSAFPID-00087",
+            "CSAFPID-00088",
+            "CSAFPID-00089",
+            "CSAFPID-00090",
+            "CSAFPID-00091",
+            "CSAFPID-00092",
+            "CSAFPID-00093",
+            "CSAFPID-00094",
+            "CSAFPID-00095",
+            "CSAFPID-00096",
+            "CSAFPID-00097",
+            "CSAFPID-00098",
+            "CSAFPID-00099",
+            "CSAFPID-00100",
+            "CSAFPID-00101",
+            "CSAFPID-00102",
+            "CSAFPID-00103",
+            "CSAFPID-00104",
+            "CSAFPID-00105",
+            "CSAFPID-00106",
+            "CSAFPID-00107",
+            "CSAFPID-00108",
+            "CSAFPID-00109",
+            "CSAFPID-00110",
+            "CSAFPID-00111",
+            "CSAFPID-00112",
+            "CSAFPID-00113",
+            "CSAFPID-00114",
+            "CSAFPID-00115",
+            "CSAFPID-00116",
+            "CSAFPID-00117",
+            "CSAFPID-00118",
+            "CSAFPID-00119",
+            "CSAFPID-00120",
+            "CSAFPID-00121",
+            "CSAFPID-00122",
+            "CSAFPID-00123",
+            "CSAFPID-00124",
+            "CSAFPID-00125",
+            "CSAFPID-00126",
+            "CSAFPID-00127",
+            "CSAFPID-00128",
+            "CSAFPID-00129",
+            "CSAFPID-00130",
+            "CSAFPID-00131",
+            "CSAFPID-00132",
+            "CSAFPID-00133",
+            "CSAFPID-00134",
+            "CSAFPID-00135",
+            "CSAFPID-00136",
+            "CSAFPID-00137",
+            "CSAFPID-00138",
+            "CSAFPID-00139",
+            "CSAFPID-00140",
+            "CSAFPID-00141",
+            "CSAFPID-00142",
+            "CSAFPID-00143",
+            "CSAFPID-00144",
+            "CSAFPID-00145",
+            "CSAFPID-00146",
+            "CSAFPID-00147",
+            "CSAFPID-00148",
+            "CSAFPID-00149",
+            "CSAFPID-00150",
+            "CSAFPID-00151",
+            "CSAFPID-00152",
+            "CSAFPID-00153",
+            "CSAFPID-00154",
+            "CSAFPID-00155",
+            "CSAFPID-00156",
+            "CSAFPID-00157",
+            "CSAFPID-00158",
+            "CSAFPID-00159",
+            "CSAFPID-00160",
+            "CSAFPID-00161",
+            "CSAFPID-00162",
+            "CSAFPID-00163",
+            "CSAFPID-00164",
+            "CSAFPID-00165",
+            "CSAFPID-00166",
+            "CSAFPID-00167",
+            "CSAFPID-00168",
+            "CSAFPID-00169",
+            "CSAFPID-00170",
+            "CSAFPID-00171",
+            "CSAFPID-00172",
+            "CSAFPID-00173",
+            "CSAFPID-00174",
+            "CSAFPID-00175",
+            "CSAFPID-00176",
+            "CSAFPID-00177",
+            "CSAFPID-00178",
+            "CSAFPID-00179",
+            "CSAFPID-00180",
+            "CSAFPID-00181",
+            "CSAFPID-00182",
+            "CSAFPID-00183",
+            "CSAFPID-00184",
+            "CSAFPID-00185",
+            "CSAFPID-00186",
+            "CSAFPID-00187",
+            "CSAFPID-00188"
+          ]
+        }
+      ]
+    }
+  ]
+}
