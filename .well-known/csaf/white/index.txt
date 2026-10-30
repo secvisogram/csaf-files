@@ -1,1 +1,2 @@
 2026/csaf-validator-lib-2026-0001.json
+2026/csaf-validator-service-2026-0001.json

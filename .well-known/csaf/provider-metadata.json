@@ -16,7 +16,7 @@
       "directory_url": "https://secvisogram.github.io/csaf-files/.well-known/csaf/white"
     }
   ],
-  "last_updated": "2026-08-10T17:18:47Z",
+  "last_updated": "2026-10-30T12:49:10Z",
   "list_on_CSAF_aggregators": true,
   "metadata_version": "2.0",
   "mirror_on_CSAF_aggregators": true,
@@ -31,7 +31,7 @@
     "name": "Secvisogram Team",
     "namespace": "https://github.com/secvisogram/csaf-files",
     "contact_details": "The Secvisogram Team can be reached via GitHub Issues at https://github.com/secvisogram/secvisogram/issues.",
-    "issuing_authority": " As a content provider, BSI is responsible under general law for its own content distributed for use. However, it remains your responsibility to carefully check usage and/or implementation of information provided with the content."
+    "issuing_authority": "As a content provider, the Secvisogram Team is responsible under general law for its own content distributed for use. However, it remains your responsibility to carefully check usage and/or implementation of information provided with the content."
   },
   "role": "csaf_trusted_provider"
 }
