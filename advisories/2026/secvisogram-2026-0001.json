@@ -17,7 +17,7 @@
       },
       {
         "category": "summary",
-        "text": "Secvisogram is not affected by CVE-2026-111497 in the Node.js Brotli decoder, as Node.js is only used at build time and is not part of the delivered application.",
+        "text": "Secvisogram is not affected by CVE-2026-111497 in the Node.js Brotli decoder, as Node.js is only used at build time and is not part of the delivered application. In the Docker image, Nginx is used instead, which is not vulnerable to this CVE in this configuration.",
         "title": "Summary"
       },
       {
