@@ -1375,7 +1375,7 @@
         {
           "category": "vendor_fix",
           "date": "2026-10-26T12:00:00.000Z",
-          "details": "Rebuild the Docker image with a patched Node.js base image (node:24.22.1-alpine or later).",
+          "details": "Update to csaf-validator-service version 3.0.2 or later, which uses a patched Node.js base image (node:24.22.1-alpine or later).",
           "product_ids": [
             "CSAFPID-00001",
             "CSAFPID-00002",
