@@ -1,0 +1,920 @@
+{
+  "document": {
+    "aggregate_severity": {
+      "text": "High"
+    },
+    "category": "csaf_vex",
+    "csaf_version": "2.0",
+    "distribution": {
+      "tlp": {
+        "label": "WHITE",
+        "url": "https://www.first.org/tlp/"
+      }
+    },
+    "lang": "en-US",
+    "notes": [
+      {
+        "category": "legal_disclaimer",
+        "text": "As a content provider, the Secvisogram Team is responsible under general law for its own content distributed for use. However, it remains your responsibility to carefully check usage and/or implementation of information provided with the content.",
+        "title": "Legal disclaimer"
+      },
+      {
+        "category": "summary",
+        "text": "The container image of the csaf-cms-backend provided by the Secvisogram project includes an OpenJDK runtime (Eclipse Temurin 25.0.5+8) that is affected by CVE-2026-114938 (\"Java4Shell\") and the further vulnerabilities CVE-2026-114939 to CVE-2026-114947 fixed in the OpenJDK Critical Patch Update of 2026-11-17. No fixed base image was available at the time of publication.",
+        "title": "Summary"
+      },
+      {
+        "category": "description",
+        "text": "csaf-cms-backend is the backend of the CSAF content management system. It provides a REST API for managing the lifecycle of CSAF documents.",
+        "title": "Product description"
+      }
+    ],
+    "publisher": {
+      "category": "vendor",
+      "name": "csaf-cms-backend",
+      "namespace": "https://github.com/secvisogram/csaf-cms-backend"
+    },
+    "references": [
+      {
+        "category": "self",
+        "summary": "csaf-cms-backend repository",
+        "url": "https://secvisogram.github.io/.well-known/csaf/white/2026/csaf-cms-backend-2026-0001.json"
+      },
+      {
+        "category": "external",
+        "summary": "OpenJDK Vulnerability Advisory: 2026/11/17",
+        "url": "https://openjdk.org/groups/vulnerability/advisories/2026-11-17"
+      },
+      {
+        "category": "external",
+        "summary": "Java4Shell technical analysis (calif.io)",
+        "url": "https://calif.io/java4shell"
+      }
+    ],
+    "title": "csaf-cms-backend container image is affected by CVE-2026-114938 (Java4Shell) and further vulnerabilities in OpenJDK",
+    "tracking": {
+      "current_release_date": "2026-11-18T14:00:00.000Z",
+      "generator": {
+        "date": "2026-11-18T14:00:00.000Z",
+        "engine": {
+          "name": "Secvisogram",
+          "version": "2.5.40"
+        }
+      },
+      "id": "csaf-cms-backend-2026-0001",
+      "initial_release_date": "2026-11-18T14:00:00.000Z",
+      "revision_history": [
+        {
+          "date": "2026-11-18T14:00:00.000Z",
+          "number": "1",
+          "summary": "Initial version."
+        }
+      ],
+      "status": "interim",
+      "version": "1"
+    }
+  },
+  "product_tree": {
+    "branches": [
+      {
+        "branches": [
+          {
+            "branches": [
+              {
+                "category": "product_version",
+                "name": "1.1.1",
+                "product": {
+                  "name": "Secvisogram csaf-cms-backend 1.1.1",
+                  "product_id": "CSAFPID-00001",
+                  "product_identification_helper": {
+                    "purl": "pkg:oci/csaf-cms-backend@sha256%3Adb8bfae38b5e7b1864e64888858dcd78e1de42da533c6792f2d14304c91bbbe2?repository_url=ghcr.io/secvisogram/csaf-cms-backend&tag=1.1.1"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.1.2",
+                "product": {
+                  "name": "Secvisogram csaf-cms-backend 1.1.2",
+                  "product_id": "CSAFPID-00002",
+                  "product_identification_helper": {
+                    "purl": "pkg:oci/csaf-cms-backend@sha256%3A993df5ccf64b73721ab1251b857b369783551208cbf6669314c3f17c62bdce97?repository_url=ghcr.io/secvisogram/csaf-cms-backend&tag=1.1.2"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.1.3",
+                "product": {
+                  "name": "Secvisogram csaf-cms-backend 1.1.3",
+                  "product_id": "CSAFPID-00003",
+                  "product_identification_helper": {
+                    "purl": "pkg:oci/csaf-cms-backend@sha256%3Ad5b682fcd762b48444531cd79eae6180fda633b1d71862aef69769632d066ce7?repository_url=ghcr.io/secvisogram/csaf-cms-backend&tag=1.1.3"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.1.4",
+                "product": {
+                  "name": "Secvisogram csaf-cms-backend 1.1.4",
+                  "product_id": "CSAFPID-00004",
+                  "product_identification_helper": {
+                    "purl": "pkg:oci/csaf-cms-backend@sha256%3Abeaf4f4c9a92128b4411e21d4119cd41f436045d898da78451ef7eb2f86f7114?repository_url=ghcr.io/secvisogram/csaf-cms-backend&tag=1.1.4"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.1.5",
+                "product": {
+                  "name": "Secvisogram csaf-cms-backend 1.1.5",
+                  "product_id": "CSAFPID-00005",
+                  "product_identification_helper": {
+                    "purl": "pkg:oci/csaf-cms-backend@sha256%3A0e574e7ccf6fb1265e76759d443e1f1d298a71e8167070ac8ddb0a1d5f2de00b?repository_url=ghcr.io/secvisogram/csaf-cms-backend&tag=1.1.5"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.1.6",
+                "product": {
+                  "name": "Secvisogram csaf-cms-backend 1.1.6",
+                  "product_id": "CSAFPID-00006",
+                  "product_identification_helper": {
+                    "purl": "pkg:oci/csaf-cms-backend@sha256%3Afa2c65f30d47cf5d0b94f53db863534aafa0844a41f118918132dbff399d11a5?repository_url=ghcr.io/secvisogram/csaf-cms-backend&tag=1.1.6"
+                  }
+                }
+              },
+              {
+                "category": "product_version",
+                "name": "1.1.7",
+                "product": {
+                  "name": "Secvisogram csaf-cms-backend 1.1.7",
+                  "product_id": "CSAFPID-00007",
+                  "product_identification_helper": {
+                    "purl": "pkg:oci/csaf-cms-backend@sha256%3A0950552c5233f7f991c75873e33b5380153d3957bdb2ee5d205ca01a99735540?repository_url=ghcr.io/secvisogram/csaf-cms-backend&tag=1.1.7"
+                  }
+                }
+              }
+            ],
+            "category": "product_name",
+            "name": "csaf-cms-backend"
+          }
+        ],
+        "category": "vendor",
+        "name": "Secvisogram"
+      }
+    ]
+  },
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-114938",
+      "cwe": {
+        "id": "CWE-122",
+        "name": "Heap-based Buffer Overflow"
+      },
+      "discovery_date": "2026-11-17T00:00:00.000Z",
+      "notes": [
+        {
+          "category": "description",
+          "text": "Heap out-of-bounds write in the AVX-512 Base64 decode intrinsic of the OpenJDK HotSpot compiler (java.util.Base64). It is exploitable only on x86-64 processors with AVX-512 VBMI support.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "workaround",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "Start the JVM with the option -XX:-UseBASE64Intrinsics to disable the vulnerable intrinsic.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        },
+        {
+          "category": "none_available",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "A fixed OpenJDK base image (Eclipse Temurin 25.0.5.1 or later) is not yet available. A new csaf-cms-backend release will be published when it is.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 8.1,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "The csaf-cms-backend image contains the affected OpenJDK runtime. The vulnerability can only be exploited on hosts with AVX-512 VBMI support and requires attacker-controlled data to reach java.util.Base64 decoding.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2026-114939",
+      "discovery_date": "2026-11-17T00:00:00.000Z",
+      "notes": [
+        {
+          "category": "description",
+          "text": "Vulnerability in the JGSS component of Oracle Java SE. Difficult to exploit, allows an unauthenticated attacker with network access to compromise confidentiality and integrity.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "none_available",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "A fixed OpenJDK base image (Eclipse Temurin 25.0.5.1 or later) is not yet available. A new csaf-cms-backend release will be published when it is.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 7.4,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "The csaf-cms-backend image contains the affected OpenJDK runtime. According to the vendor, the issue applies to deployments that run untrusted code in the Java sandbox and does not apply to servers that run only trusted code. csaf-cms-backend does not use Kerberos/GSS-API.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2026-114940",
+      "discovery_date": "2026-11-17T00:00:00.000Z",
+      "notes": [
+        {
+          "category": "description",
+          "text": "Vulnerability in the JSSE component of Oracle Java SE. Difficult to exploit, allows an unauthenticated attacker with network access via TLS to compromise confidentiality and integrity. It can be exploited through APIs of the component, e.g. via a web service supplying data to these APIs.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "none_available",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "A fixed OpenJDK base image (Eclipse Temurin 25.0.5.1 or later) is not yet available. A new csaf-cms-backend release will be published when it is.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 7.4,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "The csaf-cms-backend image contains the affected OpenJDK runtime and establishes outgoing TLS connections. Exploitation is difficult (high attack complexity).",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2026-114941",
+      "discovery_date": "2026-11-17T00:00:00.000Z",
+      "notes": [
+        {
+          "category": "description",
+          "text": "Vulnerability in the Compiler component of Oracle Java SE. Difficult to exploit, allows an unauthenticated attacker with network access to cause a hang or crash (complete DoS) and limited unauthorized data modification and read access. It can only be exploited by supplying data to APIs of the component, e.g. via a web service.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "none_available",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "A fixed OpenJDK base image (Eclipse Temurin 25.0.5.1 or later) is not yet available. A new csaf-cms-backend release will be published when it is.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 7,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "The csaf-cms-backend image contains the affected OpenJDK runtime. Exploitation is difficult (high attack complexity); no concrete attack path via the csaf-cms-backend API is known.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2026-114942",
+      "discovery_date": "2026-11-17T00:00:00.000Z",
+      "notes": [
+        {
+          "category": "description",
+          "text": "Vulnerability in the Libraries component of Oracle Java SE. Difficult to exploit, allows an unauthenticated attacker with network access to cause a hang or crash (complete DoS) and limited unauthorized data modification and read access. It can only be exploited by supplying data to APIs of the component, e.g. via a web service.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "none_available",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "A fixed OpenJDK base image (Eclipse Temurin 25.0.5.1 or later) is not yet available. A new csaf-cms-backend release will be published when it is.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 7,
+            "baseSeverity": "HIGH",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "The csaf-cms-backend image contains the affected OpenJDK runtime. Exploitation is difficult (high attack complexity); no concrete attack path via the csaf-cms-backend API is known.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2026-114943",
+      "discovery_date": "2026-11-17T00:00:00.000Z",
+      "notes": [
+        {
+          "category": "description",
+          "text": "Vulnerability in the HotSpot component of Oracle Java SE. Difficult to exploit, allows an unauthenticated attacker with network access to cause a hang or crash (complete DoS) and limited unauthorized data modification. It can be exploited through APIs of the component, e.g. via a web service supplying data to these APIs.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "none_available",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "A fixed OpenJDK base image (Eclipse Temurin 25.0.5.1 or later) is not yet available. A new csaf-cms-backend release will be published when it is.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 6.5,
+            "baseSeverity": "MEDIUM",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "The csaf-cms-backend image contains the affected OpenJDK runtime. Exploitation is difficult (high attack complexity); no concrete attack path via the csaf-cms-backend API is known.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2026-114944",
+      "discovery_date": "2026-11-17T00:00:00.000Z",
+      "notes": [
+        {
+          "category": "description",
+          "text": "Vulnerability in the Core Libraries component (java.lang.management) of Oracle Java SE. Difficult to exploit, allows an unauthenticated attacker with network access to compromise integrity. It can be exploited through APIs of the component, e.g. via a web service supplying data to these APIs.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "none_available",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "A fixed OpenJDK base image (Eclipse Temurin 25.0.5.1 or later) is not yet available. A new csaf-cms-backend release will be published when it is.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 5.9,
+            "baseSeverity": "MEDIUM",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "The csaf-cms-backend image contains the affected OpenJDK runtime. Exploitation is difficult (high attack complexity); no concrete attack path via the csaf-cms-backend API is known.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2026-114945",
+      "discovery_date": "2026-11-17T00:00:00.000Z",
+      "notes": [
+        {
+          "category": "description",
+          "text": "Vulnerability in the Libraries component (java.lang) of Oracle Java SE. Easily exploitable, allows an unauthenticated attacker with network access to cause limited unauthorized data modification. It can be exploited through APIs of the component, e.g. via a web service supplying data to these APIs.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "none_available",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "A fixed OpenJDK base image (Eclipse Temurin 25.0.5.1 or later) is not yet available. A new csaf-cms-backend release will be published when it is.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 5.3,
+            "baseSeverity": "MEDIUM",
+            "vectorString": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "The csaf-cms-backend image contains the affected OpenJDK runtime. The impact is limited to a minor integrity impact; no concrete attack path via the csaf-cms-backend API is known.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2026-114946",
+      "discovery_date": "2026-11-17T00:00:00.000Z",
+      "notes": [
+        {
+          "category": "description",
+          "text": "Vulnerability in the Compiler component of Oracle Java SE. Difficult to exploit, allows an unauthenticated attacker with network access to cause limited unauthorized data modification and read access. It can be exploited through APIs of the component, e.g. via a web service supplying data to these APIs.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "none_available",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "A fixed OpenJDK base image (Eclipse Temurin 25.0.5.1 or later) is not yet available. A new csaf-cms-backend release will be published when it is.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 4.8,
+            "baseSeverity": "MEDIUM",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "The csaf-cms-backend image contains the affected OpenJDK runtime. Exploitation is difficult (high attack complexity); no concrete attack path via the csaf-cms-backend API is known.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ]
+    },
+    {
+      "cve": "CVE-2026-114947",
+      "discovery_date": "2026-11-17T00:00:00.000Z",
+      "notes": [
+        {
+          "category": "description",
+          "text": "Vulnerability in the JSSE component of Oracle Java SE. Difficult to exploit, allows an unauthenticated attacker with network access via TLS to cause limited unauthorized data modification.",
+          "title": "CVE Description"
+        }
+      ],
+      "product_status": {
+        "known_affected": [
+          "CSAFPID-00001",
+          "CSAFPID-00002",
+          "CSAFPID-00003",
+          "CSAFPID-00004",
+          "CSAFPID-00005",
+          "CSAFPID-00006",
+          "CSAFPID-00007"
+        ]
+      },
+      "remediations": [
+        {
+          "category": "none_available",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "A fixed OpenJDK base image (Eclipse Temurin 25.0.5.1 or later) is not yet available. A new csaf-cms-backend release will be published when it is.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "scores": [
+        {
+          "cvss_v3": {
+            "baseScore": 3.7,
+            "baseSeverity": "LOW",
+            "vectorString": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+            "version": "3.1"
+          },
+          "products": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ],
+      "threats": [
+        {
+          "category": "impact",
+          "date": "2026-11-18T10:00:00.000Z",
+          "details": "The csaf-cms-backend image contains the affected OpenJDK runtime. According to the vendor, the issue applies to deployments that run untrusted code in the Java sandbox and does not apply to servers that run only trusted code.",
+          "product_ids": [
+            "CSAFPID-00001",
+            "CSAFPID-00002",
+            "CSAFPID-00003",
+            "CSAFPID-00004",
+            "CSAFPID-00005",
+            "CSAFPID-00006",
+            "CSAFPID-00007"
+          ]
+        }
+      ]
+    }
+  ]
+}
